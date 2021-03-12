@@ -1,0 +1,14 @@
+{
+    "name": "Shambo",
+    "common": "test",
+    "metaData": {
+        "sample1": "abc",
+        "sample2": "xyz"
+    }, 
+    "truck": {
+        "type": "truck",
+        "make": "Isuzu",
+        "model": "NQR",
+        "payloadCapacity": 7500.0
+    }
+}
