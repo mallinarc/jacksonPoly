@@ -1,6 +1,10 @@
 package polyDeserialize.jacksonPoly;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonSubTypes.Type;
+
 public class Truck extends Vehicle {
+	@JsonProperty("@Type")
 	private double payloadCapacity;
 
 	public Truck(String make, String model, double payloadCapacity) {

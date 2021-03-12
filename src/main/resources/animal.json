@@ -1,0 +1,23 @@
+{
+	"common": {
+			"key": "dog",
+			"section": "Spike"
+	},
+	"name": "Shambo",
+	"animals": [
+		{
+			"name": "Spike",
+			"breed": "mutt",
+			"leashColor": "red"
+		},
+		{
+			"name": "Champ",
+			"breed": "Pamorian",
+			"leashColor": "white"
+		},
+		{
+			"name": "Fluffy",
+			"favoriteToy": "spider ring"
+		}
+	]
+}

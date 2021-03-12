@@ -6,7 +6,6 @@
         "sample2": "xyz"
     }, 
     "truck": {
-        "type": "truck",
         "make": "Isuzu",
         "model": "NQR",
         "payloadCapacity": 7500.0

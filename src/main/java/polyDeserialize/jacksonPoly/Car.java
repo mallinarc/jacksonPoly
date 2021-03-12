@@ -1,6 +1,9 @@
 package polyDeserialize.jacksonPoly;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Car extends Vehicle {
+	@JsonProperty("@Type")
 	private int seatingCapacity;
 	private double topSpeed;
 
